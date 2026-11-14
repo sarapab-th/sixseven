@@ -1,0 +1,17 @@
+node_modules
+.next
+out
+.env
+.env*.local
+storage/uploads/*
+!storage/uploads/.gitkeep
+# Quote requests land here when no mail provider is configured.
+# They contain customer names, emails and phone numbers.
+storage/quote-requests.jsonl
+*.log
+.DS_Store
+next-env.d.ts
+.vercel
+tsconfig.tsbuildinfo
+__pycache__/
+*.pyc
